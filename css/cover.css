@@ -1,0 +1,39 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.cover__title {
+  width: 100%;
+  margin: 0 0 35px;
+  font-size: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .cover__title {
+    font-size: 40px;
+  }
+
+}
+
+.cover__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  max-width: 90%;
+  height: 65px;
+  font-size: 20px;
+  color: #3e6665;
+  background: #d5efec;
+  text-decoration: none;
+}
+
+.cover__button:hover {
+  opacity: .8;
+}
