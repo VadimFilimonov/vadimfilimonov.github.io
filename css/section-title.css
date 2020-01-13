@@ -1,0 +1,13 @@
+.section-title {
+  font-size: 60px;
+  font-family: 'Noto Serif', serif;
+  color: var(--color-title);
+}
+
+@media screen and (max-width: 767px) {
+
+  .section-title {
+    font-size: 40px;
+  }
+
+}
