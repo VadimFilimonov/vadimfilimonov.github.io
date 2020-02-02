@@ -9,10 +9,8 @@
 .cover__title {
   width: 100%;
   margin: 0 0 35px;
-  font-family: 'Noto Serif', serif;
   font-size: 100px;
   text-align: center;
-  color: var(--color-title);
 }
 
 @media screen and (max-width: 767px) {
