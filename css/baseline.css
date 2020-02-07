@@ -1,16 +1,16 @@
 body {
-  --background-color: #d5efec;
-  padding: 0;
-  margin: 0;
-  color: #3d6664;
-  text-decoration: none;
+	--background-color: #d5efec;
+	margin: 0;
+	padding: 0;
+	color: #3d6664;
+	text-decoration: none;
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+	color: inherit;
+	text-decoration: inherit;
 }
 
 a:hover {
-  opacity: .8;
+	opacity: .8;
 }

@@ -1,0 +1,19 @@
+{
+  "name": "vadimfilimonov.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Filimonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimFilimonov/vadimfilimonov.github.io/issues"
+  },
+  "homepage": "https://github.com/VadimFilimonov/vadimfilimonov.github.io#readme"
+}

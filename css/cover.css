@@ -1,8 +1,8 @@
 .cover {
   display: flex;
-  justify-content: center;
-  align-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -23,14 +23,14 @@
 
 .cover__button {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 350px;
   max-width: 90%;
   height: 65px;
   font-size: 20px;
-  background: var(--background-color);
   text-decoration: none;
+  background: var(--background-color);
 }
 
 .cover__button:hover {
