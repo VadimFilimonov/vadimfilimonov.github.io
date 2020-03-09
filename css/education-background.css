@@ -1,0 +1,38 @@
+.education-background {
+  display: flex;
+  align-items: start;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .education-background {
+    flex-direction: column;
+  }
+}
+
+.education-background__title {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .education-background__title {
+    max-width: 90%;
+  }
+}
+
+.education-background__image {
+  display: block;
+  order: -1;
+  width: 45%;
+  height: 85%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .education-background__image {
+    width: 100%;
+    height: 45%;
+  }
+}
