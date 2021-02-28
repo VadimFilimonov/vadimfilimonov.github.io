@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
+    "browser-sync": "^2.26.14",
     "stylelint": "^13.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {
+    "start": "browser-sync start --server --no-notify --no-ui --files *",
+    "lint": "stylelint ./css/**/*.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vadim Filimonov",
